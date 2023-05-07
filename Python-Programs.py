@@ -99,19 +99,19 @@ else:
 
 
 
-#11
+#11. Area of triangle
 h= float(input('Enter height of traingle: '))
 b= float(input('Enter base of traingle : '))
 a=(0.5*b*h)
 print('The area of the triangle is' +str(a))
 
-#12
+#12. kms to miles
 x = int(input('enter the speed in KM: '))
 miles = x * 0.621371
 print('after converting kms to miles')
 print(miles)
 
-#13
+#13. Quad eqn
 a = float(input('enter the value of a: '))
 b = float(input('enter the value of b: '))
 c = float(input('enter the value of c: '))
@@ -120,17 +120,17 @@ x1 = (-b - (d ** 0.5))/(2*a)
 x2 = (-b + (d ** 0.5))/(2*a)
 print(x1,x2)
 
-#14
+#14. Sqrt of a number
 n= float(input('Enter a number: '))
 Sqrt = num ** 0.5
 print(sqrt)
 
-#15
+#15. Sum of numbers
 a = int(input("enter num 1: "))
 b = int(input("enter num 2: "))
 print(a + b)
 
-#16
+#16-a. Swap using temp var
 print('using temp variable')
 x = input('Enter value of x: ')
 y = input('Enter value of y: ')
@@ -140,6 +140,7 @@ y = temp
 print('The value of x after swapping: '+ str(x))
 print('The value of y after swapping: '+ str(y))
 
+#16-b. Swap without temp var
 print('without temp variable')
 x = input('Enter value of x: ')
 y = input('Enter value of y: ')
@@ -147,6 +148,7 @@ x, y = y, x
 print("x =", x)
 print("y =", y)
 
+#16-c. using + & -
 print('Using addition and subtraction')
 x = int(input('Enter value of x: '))
 y = int(input('Enter value of y: '))
@@ -156,6 +158,7 @@ x = x - y
 print("x =",x)
 print("y =", y)
 
+#16-d. using * & /
 print('Using multiplication and division')
 x = int(input('Enter value of x: '))
 y = int(input('Enter value of y: '))
@@ -165,6 +168,7 @@ x = x // y
 print("x =",x)
 print("y =", y)
 
+#16-e. using Xor method
 print('using XOR method')
 x = int(input('Enter value of x: '))
 y = int(input('Enter value of y: '))
@@ -174,7 +178,7 @@ x = x ^ y
 print("x =",x)
 print("y =", y)
 
-#17
+#17. even / odd
 a=int(input('enter a number'))
 if a%2==0:
     print('number is even')
@@ -183,7 +187,7 @@ else:
 print('done')
 
 
-#18
+#18. Is number + or - or 0 
 a=int(input('Enter a number:'))
 if a<0:
     print('number is negative')
@@ -192,7 +196,7 @@ elif a>0:
 else:
     print('number is zero')
 
-#19
+#19. Is number + or - or 0 
 a=int(input('Enter a number:'))
 if a!=0:
     if a<0:
@@ -203,7 +207,7 @@ else:
     print('number is a zero')
 
 
-#20
+#20. biggest of 3 numbers
 a=int(input('Enter the numbers'))
 b=int(input())
 c=int(input())
@@ -223,7 +227,7 @@ if a>c:
     else:
         print('str(a) is greater')
 
-#21
+#21. even numbers b/w 1 and 100
 i=1
 while i<=100:
     if i%2 != 0:
@@ -241,16 +245,15 @@ for Number in range (1, 101):
     if (count == 0 and Number != 1):
         print(" %d" %Number, end = '  ')
 
-#23
+#23. pattern
 i=0
 j=0
 for i in range(0,5):
-
     for j in range(i+1,5):
         print(j,end=' ')
     print()
 
-#24
+#24. pattern
 i=0
 j=0
 for i in range(0,5):
@@ -258,7 +261,7 @@ for i in range(0,5):
         print('#',end=' ')
     print()
 
-#25
+#25. pattern
 i=0
 j=0
 for i in range(0,5):
